@@ -1,7 +1,7 @@
 import './App.css';
 
 
-const estilo = (bg = '#333') => ({background: bg, color: '#fff', padding: '10px 15px', margin: '10px 15px'})
+const estilo = (bg = '#222') => ({background: bg, color: '#fff', padding: '10px 15px', margin: '10px 15px'})
 const estilo2 = {
     boxShadow: '0 5px 3px rgba(0,0,0,0.5)'
 }
@@ -11,7 +11,7 @@ const Li = ({children, estado}) => {
         <li style={
                 {
                     ... estilo2,
-                    ... estilo()
+                    ... estilo({bg:'#750'})
 
                 }
             }
