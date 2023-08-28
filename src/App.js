@@ -1,7 +1,8 @@
 import Button from "./Button";
+import Lista from "./Lista";
 
 const App = () => {
-const miVariable= true
+const miVariable= false
 if(miVariable){
     return <p> Mi variable dio True</p>
 }
@@ -11,6 +12,7 @@ if(miVariable){
 
         <div>
             <h1>Hi world</h1>
+            <Lista></Lista>
             <Button onClick={onclick}/>
         </div>
     )
